@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O2 -w -D_FORTIFY_SOURCE=2  -shared -Wl,-soname,ec_rand_flood.so -o ec_rand_flood.so CMakeFiles/rand_flood.dir/rand_flood/rand_flood.c.o ../src/libettercap.so.0.0.0 -lssl -lcrypto -lz -lpthread -ldl -lpcap -lnet -lresolv ../src/lua/libec_lua.a -lluajit-5.1 -Wl,-rpath,/root/ettercap-0.8.2/Build_Android/src: 

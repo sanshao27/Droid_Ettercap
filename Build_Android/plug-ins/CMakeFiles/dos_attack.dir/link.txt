@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O2 -w -D_FORTIFY_SOURCE=2  -shared -Wl,-soname,ec_dos_attack.so -o ec_dos_attack.so CMakeFiles/dos_attack.dir/dos_attack/dos_attack.c.o ../src/libettercap.so.0.0.0 -lssl -lcrypto -lz -lpthread -ldl -lpcap -lnet -lresolv ../src/lua/libec_lua.a -lluajit-5.1 -Wl,-rpath,/root/ettercap-0.8.2/Build_Android/src: 

@@ -1,0 +1,671 @@
+The system is: Linux - 3.10.0-379066-gee8009a - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/ettercap-0.8.2/Build_Android/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec56858814/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec56858814.dir/build.make CMakeFiles/cmTryCompileExec56858814.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec56858814.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec56858814.dir/testCCompiler.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec56858814
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec56858814.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec56858814.dir/testCCompiler.c.o  -o cmTryCompileExec56858814 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2241319163/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2241319163.dir/build.make CMakeFiles/cmTryCompileExec2241319163.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2241319163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2241319163.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2241319163 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/5/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-multilib --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/5/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2241319163' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccILwb8w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTryCompileExec2241319163 /usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/5 -L/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/5/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/5/../../.. CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2241319163/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2241319163.dir/build.make CMakeFiles/cmTryCompileExec2241319163.dir/build]
+  ignore line: [make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2241319163]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2241319163.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2241319163 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/5/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-multilib --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/5/:/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/5/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2241319163' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccILwb8w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTryCompileExec2241319163 /usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/5 -L/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/5/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/5/../../.. CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccILwb8w.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2241319163] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/5] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/5]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/5/../../../../lib] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/5/../../../../lib]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/5/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/5/../../..]
+    arg [CMakeFiles/cmTryCompileExec2241319163.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/5] ==> [/usr/lib/gcc/arm-linux-gnueabihf/5]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/5/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/5;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3027898979/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3027898979.dir/build.make CMakeFiles/cmTryCompileExec3027898979.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3027898979.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3027898979.dir/feature_tests.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3027898979
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3027898979.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3027898979.dir/feature_tests.c.o  -o cmTryCompileExec3027898979 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3432428398/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3432428398.dir/build.make CMakeFiles/cmTryCompileExec3432428398.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3432428398.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec3432428398.dir/feature_tests.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3432428398
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3432428398.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3432428398.dir/feature_tests.c.o  -o cmTryCompileExec3432428398 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2668180359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2668180359.dir/build.make CMakeFiles/cmTryCompileExec2668180359.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2668180359.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec2668180359.dir/feature_tests.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2668180359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2668180359.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2668180359.dir/feature_tests.c.o  -o cmTryCompileExec2668180359 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2519677420/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2519677420.dir/build.make CMakeFiles/cmTryCompileExec2519677420.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2519677420.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2519677420.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2519677420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2519677420.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2519677420.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2519677420 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec55570238/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec55570238.dir/build.make CMakeFiles/cmTryCompileExec55570238.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec55570238.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec55570238.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec55570238
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec55570238.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec55570238.dir/CheckIncludeFile.c.o  -o cmTryCompileExec55570238 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3735992021/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3735992021.dir/build.make CMakeFiles/cmTryCompileExec3735992021.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3735992021.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3735992021.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3735992021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3735992021.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3735992021.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3735992021 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2718688381/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2718688381.dir/build.make CMakeFiles/cmTryCompileExec2718688381.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2718688381.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2718688381.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec2718688381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2718688381.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2718688381.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec2718688381 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/poll.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2755465116/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2755465116.dir/build.make CMakeFiles/cmTryCompileExec2755465116.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2755465116.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2755465116.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2755465116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2755465116.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2755465116.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2755465116 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec20890125/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec20890125.dir/build.make CMakeFiles/cmTryCompileExec20890125.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec20890125.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec20890125.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec20890125
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec20890125.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec20890125.dir/CheckIncludeFile.c.o  -o cmTryCompileExec20890125 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1168875414/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1168875414.dir/build.make CMakeFiles/cmTryCompileExec1168875414.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1168875414.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1168875414.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1168875414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1168875414.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1168875414.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1168875414 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1692346919/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1692346919.dir/build.make CMakeFiles/cmTryCompileExec1692346919.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1692346919.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1692346919.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1692346919
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1692346919.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1692346919.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1692346919 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3256097210/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3256097210.dir/build.make CMakeFiles/cmTryCompileExec3256097210.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3256097210.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3256097210.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3256097210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3256097210.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3256097210.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3256097210 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3618556969/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3618556969.dir/build.make CMakeFiles/cmTryCompileExec3618556969.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3618556969.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3618556969.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3618556969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3618556969.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3618556969.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3618556969 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/nameser.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec466922131/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec466922131.dir/build.make CMakeFiles/cmTryCompileExec466922131.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec466922131.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec466922131.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec466922131
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec466922131.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec466922131.dir/CheckIncludeFile.c.o  -o cmTryCompileExec466922131 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2313409369/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2313409369.dir/build.make CMakeFiles/cmTryCompileExec2313409369.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2313409369.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2313409369.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2313409369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2313409369.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2313409369.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2313409369 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libgen.h exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1502995428/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1502995428.dir/build.make CMakeFiles/cmTryCompileExec1502995428.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1502995428.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1502995428.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1502995428
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1502995428.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1502995428.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1502995428 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wsyncup exists in the /usr/lib/arm-linux-gnueabihf/libcurses.so passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4219655024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4219655024.dir/build.make CMakeFiles/cmTryCompileExec4219655024.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4219655024.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wsyncup   -o CMakeFiles/cmTryCompileExec4219655024.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4219655024
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4219655024.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wsyncup    CMakeFiles/cmTryCompileExec4219655024.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4219655024 -rdynamic -lcurses 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cbreak exists in the /usr/lib/arm-linux-gnueabihf/libncurses.so passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3709243760/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3709243760.dir/build.make CMakeFiles/cmTryCompileExec3709243760.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3709243760.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cbreak   -o CMakeFiles/cmTryCompileExec3709243760.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3709243760
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3709243760.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cbreak    CMakeFiles/cmTryCompileExec3709243760.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3709243760 -rdynamic -lncurses 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1683193884/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1683193884.dir/build.make CMakeFiles/cmTryCompileExec1683193884.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1683193884.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1683193884.dir/CheckIncludeFiles.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1683193884
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1683193884.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1683193884.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1683193884 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2442083108/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2442083108.dir/build.make CMakeFiles/cmTryCompileExec2442083108.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2442083108.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2442083108.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2442083108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2442083108.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2442083108.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2442083108 -rdynamic -lpthread 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function iconv exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2738316852/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2738316852.dir/build.make CMakeFiles/cmTryCompileExec2738316852.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2738316852.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=iconv   -o CMakeFiles/cmTryCompileExec2738316852.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2738316852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2738316852.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=iconv    CMakeFiles/cmTryCompileExec2738316852.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2738316852 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2579677561/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2579677561.dir/build.make CMakeFiles/cmTryCompileExec2579677561.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2579677561.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec2579677561.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2579677561
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2579677561.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec2579677561.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2579677561 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtok_r exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1089328366/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1089328366.dir/build.make CMakeFiles/cmTryCompileExec1089328366.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1089328366.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtok_r   -o CMakeFiles/cmTryCompileExec1089328366.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1089328366
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1089328366.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtok_r    CMakeFiles/cmTryCompileExec1089328366.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1089328366 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec450634957/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec450634957.dir/build.make CMakeFiles/cmTryCompileExec450634957.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec450634957.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTryCompileExec450634957.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec450634957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec450634957.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=select    CMakeFiles/cmTryCompileExec450634957.dir/CheckFunctionExists.c.o  -o cmTryCompileExec450634957 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function scandir exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec807347890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec807347890.dir/build.make CMakeFiles/cmTryCompileExec807347890.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec807347890.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scandir   -o CMakeFiles/cmTryCompileExec807347890.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec807347890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec807347890.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scandir    CMakeFiles/cmTryCompileExec807347890.dir/CheckFunctionExists.c.o  -o cmTryCompileExec807347890 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3946207070/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3946207070.dir/build.make CMakeFiles/cmTryCompileExec3946207070.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3946207070.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTryCompileExec3946207070.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3946207070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3946207070.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep    CMakeFiles/cmTryCompileExec3946207070.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3946207070 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasestr exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3975478235/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3975478235.dir/build.make CMakeFiles/cmTryCompileExec3975478235.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3975478235.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasestr   -o CMakeFiles/cmTryCompileExec3975478235.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3975478235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3975478235.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasestr    CMakeFiles/cmTryCompileExec3975478235.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3975478235 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmem exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3681712539/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3681712539.dir/build.make CMakeFiles/cmTryCompileExec3681712539.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3681712539.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memmem   -o CMakeFiles/cmTryCompileExec3681712539.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3681712539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3681712539.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memmem    CMakeFiles/cmTryCompileExec3681712539.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3681712539 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function basename exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1550836989/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1550836989.dir/build.make CMakeFiles/cmTryCompileExec1550836989.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1550836989.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=basename   -o CMakeFiles/cmTryCompileExec1550836989.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1550836989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1550836989.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=basename    CMakeFiles/cmTryCompileExec1550836989.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1550836989 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strndup exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4165761197/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4165761197.dir/build.make CMakeFiles/cmTryCompileExec4165761197.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4165761197.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strndup   -o CMakeFiles/cmTryCompileExec4165761197.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strndup’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4165761197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4165761197.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strndup    CMakeFiles/cmTryCompileExec4165761197.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4165761197 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_aton exists passed with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec701306881/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec701306881.dir/build.make CMakeFiles/cmTryCompileExec701306881.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec701306881.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton   -o CMakeFiles/cmTryCompileExec701306881.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec701306881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec701306881.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton    CMakeFiles/cmTryCompileExec701306881.dir/CheckFunctionExists.c.o  -o cmTryCompileExec701306881 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_MUTEX_RECURSIVE_NP succeded with the following output:
+Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1168089747/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1168089747.dir/build.make CMakeFiles/cmTryCompileExec1168089747.dir/build
+make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1168089747.dir/src.c.o
+/usr/bin/cc   -DHAVE_MUTEX_RECURSIVE_NP   -o CMakeFiles/cmTryCompileExec1168089747.dir/src.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1168089747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1168089747.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_MUTEX_RECURSIVE_NP    CMakeFiles/cmTryCompileExec1168089747.dir/src.c.o  -o cmTryCompileExec1168089747 -rdynamic 
+make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <pthread.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+  int i = PTHREAD_MUTEX_RECURSIVE_NP;
+  return 0;
+}
+
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers
+Variable PTHREAD_MUTEX_RECURSIVE_NP was found in headers

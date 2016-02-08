@@ -1,0 +1,247 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ettercap
+Source: https://github.com/Ettercap/ettercap
+Upstream-Contact:
+   ALoR (Alberto Ornaghi) <alor@antifork.org>
+   NaGA (Marco Valleri) <naga@antifork.org>
+   Emilio Escobar <eescobar@gmail.com>
+   Eric Milam <jbrav.hax@gmail.com>
+   Mike Ryan (justfalter) <falter@gmail.com>
+   Ryan Linn <sussuro@happypacket.net>
+   Gianfranco Costamagna (LocutusOfBorg) <costamagnagianfranco@yahoo.it>
+   Jacob Baines <baines.jacob@gmail.com>
+   Antonio Collarino (sniper) <anto.collarino@gmail.com>
+   Alexander Koeppe (koeppea) <format_c@online.de>
+   Gisle Vanem <gvanem@yahoo.no>
+   Marco Valleri <crwm@freemail.it>
+   Timothy Redaelli <timothy@redaelli.eu>
+   Bryan Schneiders <daten@dnetc.org>
+
+Files: *
+Copyright:
+    Alberto Ornaghi <alor@users.sourceforge.net>
+    Marco Valleri <crwm@freemail.it>
+    Ettercap Development Team
+    Mike Ryan
+    Ryan Linn
+    Dhiru Kholia
+License: GPL-2+
+
+Files: src/missing/memcmp.c
+       src/missing/strsep.c
+Copyright: 1990-1993 The Regents of the University of California.
+License: BSD-4-clause
+
+Files: src/missing/inet_aton.c
+Copyright: 1995-1997 Kungliga Tekniska Högskolan (Royal Institute of Technology, Stockholm, Sweden).
+License: BSD-4-clause
+
+Files: src/lua/share/third-party/stdlib/m4/ax_lua.m4
+Copyright: 2013 Reuben Thomas <rrt@sc3d.org>
+           2013 Tim Perkins <tprk@gmail.com>
+License: GPL-2+
+
+Files: include/ec_queue.h
+       include/missing/nameser.h
+       include/missing/nameser_compat.h
+Copyright: 1983-1993 The Regents of the University of California.
+License: BSD-3-clause
+
+Files: src/missing/memmem.c
+       src/missing/strlcat.c
+       src/missing/strlcpy.c
+Copyright: 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+           2001 Alberto Ornaghi <alor@users.sourceforge.net>
+License: BSD-3-clause
+
+Files: src/dissectors/ec_postgresql.c
+       src/dissectors/ec_o5logon.c
+       src/dissectors/ec_iscsi.c
+       src/dissectors/ec_TN3270.c
+       src/dissectors/ec_mongodb.c
+Copyright: Dhiru Kholia <dhiru@openwall.com>
+Comment:
+ TN3270 is based on MFSniffer (https://github.com/mainframed/MFSniffer)
+ created by Soldier of Fortran (@mainframed767)
+License: GPL-2+
+
+Files: include/missing/getopt.h
+       src/missing/getopt.c
+Copyright: 1988-2000 Free Software Foundation, Inc.
+License: LGPL-2+
+
+Files: src/lua/share/core/*
+Copyright: Ryan Linn
+           Mike Ryan
+License: GPL-2+
+
+Files: src/lua/share/core/dumper.lua
+Copyright: 2007 Olivetti-Engineering SA
+License: MIT
+
+Files: plug-ins/arp_cop/arp_cop.c
+Copyright: ALoR & NaGA
+          2001 (original plugin) Paulo Madeira <acelent@hotmail.com>
+License: GPL-2+
+
+Files: src/dissectors/ec_ldap.c
+Copyright: ALoR & NaGA
+           LnZ Lorenzo Porro <lporro@libero.it>
+License: GPL-2+
+
+Files: src/missing/strndup.c
+       include/missing/strndup.h
+Copyright: 2005 Free Software Foundation, Inc. Written by Kaveh R. Ghazi <ghazi@caip.rutgers.edu>.
+License: LGPL-2+
+
+Files: src/ec_manuf.c
+Copyright: 2002 Bonelli Nicola <awgn@antifork.org>
+License: GPL-2+
+
+Files: cmake/Modules/FindGTK3.cmake
+Copyright: 2008-2009 Philip Lowman <philip@yhbt.com>
+           2009 Kitware, Inc.
+License: BSD-3-clause
+
+Files: src/lua/share/third-party/stdlib/m4/ax_with_prog.m4
+       src/lua/share/third-party/stdlib/m4/ax_compare_version.m4
+Copyright: 2008 Dustin J. Mitchell <dustin@cs.uchicago.edu>
+           2008 Tim Toolan <toolan@ele.uri.edu>
+           2008 Francesco Salvestrini <salvestrini@users.sourceforge.net>
+License: custom
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved. This file is offered as-is, without any
+ warranty.
+
+Files: cmake/Modules/FindLibIDN.cmake
+Copyright: 2009 Nigmatullin Ruslan <euroelessar@gmail.com>
+License: BSD-3-clause
+
+Files: cmake/Modules/MacroEnsureOutOfSourceBuild.cmake
+Copyright: 2006 Alexander Neundorf <neundorf@kde.org>
+License: BSD-3-clause
+
+Files: plug-ins/fraggle_attack/fraggle_attack.c
+Copyright: Antonio Collarino (sniper)  <anto.collarino@gmail.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright:
+  2001-2009 Murat Demirten <murat@debian.org>
+  2011-2014 Barak A. Pearlmutter <bap@debian.org>
+  2013-2014 Gianfranco Costamagna <costamagnagianfranco@yahoo.it>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: MIT
+ The MIT License
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+ of the Software, and to permit persons to whom the Software is furnished to do
+ so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: BSD-4-clause
+ This code is derived from software contributed to Berkeley by
+ Chris Torek.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+ must display the following acknowledgement:
+ This product includes software developed by the University of
+ California, Berkeley and its contributors.
+ 4. Neither the name of the University nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.

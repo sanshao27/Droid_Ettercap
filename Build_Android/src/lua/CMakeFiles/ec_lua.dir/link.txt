@@ -1,0 +1,2 @@
+/usr/bin/ar cq libec_lua.a  CMakeFiles/ec_lua.dir/ec_lua.c.o
+/usr/bin/ranlib libec_lua.a

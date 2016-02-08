@@ -1,0 +1,3 @@
+?package(ettercap-graphical):needs="X11" section="Applications/Network/Monitoring" \
+  title="ettercap (as root)" command="ettercap-pkexec -G" \
+  longtitle="Multipurpose sniffer/interceptor/logger"

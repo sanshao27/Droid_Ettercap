@@ -1,0 +1,72 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --parallel
+
+LIBNET_VER := $(shell dpkg --status libnet1-dev | awk '/^Version:/ {print $$2}')
+
+ENABLE_IPV6 := $(shell \
+ if dpkg --compare-versions $(LIBNET_VER) ge 1.1.6; \
+ then echo ON; \
+ else echo OFF; \
+ fi)
+
+ENABLE_LUA := $(shell \
+ if pkg-config luajit; \
+ then echo ON; \
+ else echo OFF; \
+ fi)
+
+override_dh_auto_clean:
+	-rm -rf obj-graphical obj-text-only
+
+ETTERCAP_OPTIONS= \
+ -DENABLE_IPV6=$(ENABLE_IPV6) \
+ -DBUNDLED_LIBS=OFF \
+ -DENABLE_LUA=$(ENABLE_LUA) \
+ -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+ -DENABLE_TESTS=ON \
+ -DDISABLE_RPATH=ON \
+ -DNO_INSTALL_LICENSE=ON \
+ -DENABLE_PDF_DOCS=ON
+override_dh_auto_configure:
+	@echo LIBNET_VER = $(LIBNET_VER)
+	@echo ENABLE_IPV6 = $(ENABLE_IPV6)
+	@echo ENABLE_LUA = $(ENABLE_LUA)
+	dh_auto_configure --parallel --builddirectory=obj-text-only -- $(ETTERCAP_OPTIONS) -DENABLE_GTK=OFF
+	dh_auto_configure --parallel --builddirectory=obj-graphical -- $(ETTERCAP_OPTIONS) -DENABLE_GTK=ON
+
+override_dh_auto_build: override_dh_auto_build-text-only
+override_dh_auto_build: override_dh_auto_build-graphical
+
+override_dh_auto_build-text-only: ; dh_auto_build --parallel --builddirectory=obj-text-only
+override_dh_auto_build-graphical: ; dh_auto_build --parallel --builddirectory=obj-graphical
+
+override_dh_auto_test: override_dh_auto_test-text-only
+override_dh_auto_test: override_dh_auto_test-graphical
+
+override_dh_auto_test-text-only: ; dh_auto_test --parallel --builddirectory=obj-text-only
+override_dh_auto_test-graphical: ; dh_auto_test --parallel --builddirectory=obj-graphical
+
+override_dh_auto_install:
+	dh_auto_install --parallel --builddirectory=obj-graphical
+#	dh_auto_install --parallel --builddirectory=obj-text-only
+
+override_dh_install:
+	dh_install --list-missing
+	@echo The ettercap-pkexec man page belongs in ettercap-graphical
+	-rm --verbose debian/ettercap-common/usr/share/ettercap/doc/ettercap-pkexec*
+	-rm --verbose debian/ettercap-common/usr/share/man/man*/ettercap-pkexec*
+	@echo The ettercap images belongs in ettercap-graphical
+	-rm --verbose debian/ettercap-common/usr/share/ettercap/*.png
+	-rm --verbose debian/ettercap-common/usr/share/ettercap/*.svg
+	@echo "Upstream does not set RPATH, but the file is not handled by cmake install (dh_auto_install target)"
+	chrpath --list   debian/ettercap-text-only/usr/bin/ettercap
+	chrpath --delete debian/ettercap-text-only/usr/bin/ettercap
+
+override_dh_installdocs:
+	dh_installdocs -pettercap-common
+	dh_installdocs -Nettercap-common --link-doc=ettercap-common
+
+override_dh_strip:
+	dh_strip --dbg-package=ettercap-dbg

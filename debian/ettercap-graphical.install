@@ -1,0 +1,10 @@
+/usr/bin/ettercap
+/usr/bin/ettercap-pkexec
+/usr/share/appdata
+/usr/share/applications
+/usr/share/ettercap/*.png
+/usr/share/ettercap/*.svg
+/usr/share/ettercap/doc/ettercap-pkexec*
+/usr/share/man/man*/ettercap-pkexec*
+/usr/share/pixmaps
+/usr/share/polkit-1

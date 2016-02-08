@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O2 -w -D_FORTIFY_SOURCE=2  -shared -Wl,-soname,ec_link_type.so -o ec_link_type.so CMakeFiles/link_type.dir/link_type/link_type.c.o ../src/libettercap.so.0.0.0 -lssl -lcrypto -lz -lpthread -ldl -lpcap -lnet -lresolv ../src/lua/libec_lua.a -lluajit-5.1 -Wl,-rpath,/root/ettercap-0.8.2/Build_Android/src: 
