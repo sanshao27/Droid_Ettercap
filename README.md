@@ -12,10 +12,12 @@
 > 2016 2 28 | ZhuZhiHao
 
 ###                  Ettercap porting to Android
-- Prebuild binary in Prebuild
+- Prebuild binary in Prebuild/ettercap.tar.xz
 
 `tar -Jxvf ettercap.tar.xz -C /data/data/`
+
 **Decompressed in /data/data is important,only in this way can make executable file**  
+
 - Try -\_<
 - `export PATH=/data/data/hack.wireshark.android/ettercap/bin/:$PATH`
 - `ettercap -T`
